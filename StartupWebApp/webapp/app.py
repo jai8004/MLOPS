@@ -13,9 +13,8 @@ def home():
 
 @app.route("/predict", methods=['GET', 'POST'])
 def predict():
-    print("I was here1")
+   
     if request.method == 'POST':
-        print(request.form.get('NewYork'))
         try:
                  
             RnD_Spend = int(request.form['RnD_Spend'])

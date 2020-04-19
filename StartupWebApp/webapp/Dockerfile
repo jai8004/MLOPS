@@ -1,8 +1,8 @@
  
-#Use python as base image
+#python as base image
 FROM python:3.6-slim
 
-#Use working directory /app
+#working directory /app
 WORKDIR /app
 
 #Copy all the content of current directory to /app

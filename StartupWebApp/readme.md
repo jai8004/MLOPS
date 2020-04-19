@@ -6,3 +6,15 @@ Technology Used :
 Docker
 Flask
 Machine Learning
+
+
+How to Run it :
+cd webapp 
+
+#build docker 
+#docker build  -t image_name .
+docker build -t profitweb .
+
+#run docker
+docker run -p 5000:5000 profitweb
+
