@@ -13,6 +13,7 @@ cd webapp
 
 #build docker 
 #docker build  -t image_name .
+
 docker build -t profitweb .
 
 #run docker
