@@ -15,7 +15,7 @@ RUN pip3 install -r requirements.txt
 EXPOSE 5000
 
 #Set environment variable
-ENV NAME OpentoAll
+ENV NAME env
 
 #Run python program
 CMD ["python","app.py"]
